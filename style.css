@@ -1,3 +1,32 @@
+.bg-image {
+  background-image: url('Images/Computer_Background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.carousel-item img {
+  height: 150px;
+  object-fit: contain;
+}
+
+.dropdown-item{
+	min-width: 100%;       
+  white-space: normal;  
+  word-wrap: break-word;
+}
+
+.dropdown-toggle {
+	font-size: 30px;
+  width: 200px;
+}
+
+{
+	background-color: black;
+}
+
 h1, h2, h3{
 	color: #FF575D; 
 	font-family: "Bitcount Grid Double", sans-serif;
