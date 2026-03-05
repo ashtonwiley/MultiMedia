@@ -4,7 +4,7 @@
 
     <!--
 AI Use Disclosure:
-Tool(s): ChatGPT (free version), Claude
+Tool(s): ChatGPT (free version), Claude (free version)
 Purpose 1: It helped me link my google font from html to css.
 
 Purpose 2: Also it alligned and resized my image.
@@ -15,6 +15,8 @@ Purpose 4: Helped me put links to websites when I clicked an image
 
 Purpose 5: Helped wrap text under dropdown menu stay near the dropdown box
 
+Purpose 6: Columns and Dropdown boxes
+
 Human Role 1: I had the problem of not knowing how to put the font into my css. I had it perfectly in my html code, but didn't know what it was called so it would appear in my css.
 
 Human Role 2: I found troubles finding the right size and where I wanted my image
@@ -24,6 +26,8 @@ Human Role 3: I wanted to add a favicon to my website to feel more personal to t
 Human Role 4: With my image Carousel I wanted to have the Socia Media icons take you to those websites when you clicked on them.
 
 Human Role 5: My text kept going accross the whole page and I didn't want to do that so I asked if it could help fix it
+
+Human Role 6: In my mission statement section everything was jumbled and disorganized so I made it a column and dropdowns so there is less clutter on the screen
     -->
 
 
@@ -33,6 +37,7 @@ Human Role 5: My text kept going accross the whole page and I didn't want to do 
    <!-- LOAD BOOTSTRAP CSS - DO NOT DELETE -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
    <!-- END LOADING BOOTSTRAP CSS -->
+
 
 
 <title>Media Multi</title>
@@ -124,7 +129,6 @@ Human Role 5: My text kept going accross the whole page and I didn't want to do 
 <!-- End bootstrap of carousel -->
 
 
-
 <h1>Multipe Social Media in One App</h1>
 <p>Content from different Social Media apps will appear in one app. Including but not limited to Snacpchat, Instagram, and Tiktok</p>
 <p>What are your favorite Social Media apps?</p>
@@ -148,7 +152,38 @@ Human Role 5: My text kept going accross the whole page and I didn't want to do 
 <h3>Advertisements</h3>
 <p>Advertisements will be very minimal. This way you can keep seeking social media posts
 	</p>
+
+<h3>User Agreement</h3>
+<p>Users will have an agreement verfying their age so they will recieve content appropriate for them
+</p>
+<p>Here's an example! </p>
+<form class="row g-3 needs-validation" novalidate>
+  <div class="col-md-6">
+    <label for="validationCustom03" class="form-label">How old are you?</label>
+    <input type="text" class="form-control" id="validationCustom03" required>
+    <div class="invalid-feedback">
+      Please provide a valid age.
+    </div>
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form>
+<!-- End of Bootstrap Validation (Agree to terms and conditions) -->
+
 </main>
+<br>
 <footer>
    <div class="alert alert-warning" role="alert">
     <strong>Disclaimer:</strong> All media copyright will be owned by each company, this means the content shown is owned by the company that the content is sourced from.

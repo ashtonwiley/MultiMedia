@@ -23,13 +23,22 @@
   width: 200px;
 }
 
-{
-	background-color: black;
-}
 
 h1, h2, h3{
 	color: #FF575D; 
 	font-family: "Bitcount Grid Double", sans-serif;
+
+}
+
+.alert-warning{
+	background-color:#FF575D ;
+	border-color:#FF575D ;
+}
+
+.btn-primary {
+  background-color: #FF575D !important;
+  border-color: #FF575D !important;
+  color: white;
 }
 
 
